@@ -9,10 +9,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import org.json.JSONObject;
-
 import java.io.IOException;
-import java.net.HttpURLConnection;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    //Yuesen driving now
+
     public void locationSearch(View view) throws IOException {
         EditText et = findViewById(R.id.search_bar);
         String location = et.getText().toString();
@@ -32,7 +31,13 @@ public class MainActivity extends AppCompatActivity {
         double lat = add.getLatitude();
         double lon = add.getLongitude();
         Intent intent;
-        Toast.makeText(this,""+lat+" "+lon,Toast.LENGTH_SHORT).show();
+
+    //end of Yuesen driving, Xiyu driving now
+
+        Toast.makeText(this,"In a Second:)",Toast.LENGTH_SHORT).show();
+
+    //end of Xiyu driving, Yuesen driving now
+
         intent = new Intent(MainActivity.this, MapsActivity.class);
         intent.putExtra("latitude1", lat);
         intent.putExtra("longitude1", lon);

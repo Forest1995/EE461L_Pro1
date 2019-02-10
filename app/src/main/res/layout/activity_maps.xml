@@ -14,25 +14,22 @@
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="600dp"
+        android:layout_height="539dp"
         tools:context=".MapsActivity" />
-
-    <Button
-        android:id="@+id/weather"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="showWeather"
-        android:text="Show Weather" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="78dp"
-        android:text="TextView" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:autoLink="all"
+        android:text="  Powered by Dark Sky: https://darksky.net/poweredby/" />
 </LinearLayout>
