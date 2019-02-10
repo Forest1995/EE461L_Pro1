@@ -1,0 +1,6 @@
+1/29, 7:30 - 9:30, Yuesen Lu, 2 hours
+2/1, 7:30 - 9:30, Xiyu Wang, 2 hours
+2/4, 9:00 - 12:00, EER0 Study, Yuesen and Xiyu, 3 hours
+2/5, 9:00 - 12:30, EER0 Study, Yuesen and Xiyu, 3.5 hours
+2/8, 2:00 - 5:00, EER0 Study, Yuesen and Xiyu, 3 hours
+total time 13.5 hours, 9.5 hours of pair programming
