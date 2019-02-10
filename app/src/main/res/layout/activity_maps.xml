@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context=".MapsActivity">
 
+
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:map="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -15,4 +16,23 @@
         android:layout_width="match_parent"
         android:layout_height="600dp"
         tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showWeather"
+        android:text="Show Weather" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 </LinearLayout>
